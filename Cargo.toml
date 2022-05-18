@@ -1,0 +1,14 @@
+[package]
+name = "oxide"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# [source.crates-io]
+# registry = "git://github.com/rust-lang/crates.io-index.git"
+
+[dependencies]
+egui = "0.18.1"
+eframe = "0.18.0"
+egui_extras = {version = "0.18.0", features = ["image", "svg"]}
+image = { version = "0.24", default-features = false, features = ["png", "jpeg"] }
